@@ -1,7 +1,14 @@
 {
   "name": "powerjews",
-  "owner": { "name": "PowerJews", "url": "https://powerjews.com" },
+  "description": "Plugins from PowerJews.com for Torah learning and Jewish nonprofit work.",
+  "owner": {
+    "name": "PowerJews",
+    "url": "https://powerjews.com"
+  },
   "plugins": [
-    { "name": "torah-transcript-scribe", "source": "./" }
+    {
+      "name": "torah-transcript-scribe",
+      "source": "./"
+    }
   ]
 }
