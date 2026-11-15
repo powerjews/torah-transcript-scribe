@@ -1,5 +1,7 @@
 # Spoken forms: how American mouths say the words, and what engines hear
 
+_Part of Torah Transcript Scribe, a free Claude plugin from [PowerJews.com](https://www.powerjews.com)._
+
 The eight garble shapes start from how a word sounds in the room. This file gives the everyday American pronunciations of terms that `lexicon.md` only spells, with the Yiddish, kitchen and slang words no list of seforim carries, and for each the English words an engine is likely to reach for. Use it to re-hear a suspect: say the respelling aloud, then ask which English words sound like it. The right column is a prompt for re-hearing, not a lookup table; the same word garbles differently in every mouth.
 
 Pronunciations were consulted from the Judaism 101 glossary (jewfaq.org, Tracey R. Rich), which records the Ashkenazi and Sephardi forms as commonly heard in America; its definitions are not reproduced here. The "cue" column is a one-phrase disambiguation in our own words, present only where the term is easy to confuse.

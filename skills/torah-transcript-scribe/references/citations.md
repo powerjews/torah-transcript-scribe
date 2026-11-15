@@ -1,5 +1,7 @@
 # Citations: how sources are spoken, and how to write them
 
+_Part of Torah Transcript Scribe, a free Claude plugin from [PowerJews.com](https://www.powerjews.com)._
+
 Speakers cite sources out loud in Hebrew letter-numbers and genre-specific words. Engines turn these into syllables ("Reish Yud"), English words ("cough" for kuf) or nothing. Use this file to decode what was said and to check whether the cited place exists.
 
 ## Hebrew letters as numbers

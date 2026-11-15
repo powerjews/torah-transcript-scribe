@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Word-level faithfulness check between an original transcript and its corrected version.
 
+Part of Torah Transcript Scribe, a free Claude plugin from PowerJews.com (MIT license).
+
 Usage:
     python check_faithfulness.py ORIGINAL CORRECTED [--md] [--json] [--min-run N] [--top N]
 
@@ -241,6 +243,10 @@ def stamp(time: str | None) -> str:
 
 
 def render_md(result: dict, top: int) -> str:
+    return _render_md_body(result, top) + "\n\n_check_faithfulness.py, Torah Transcript Scribe by PowerJews.com_"
+
+
+def _render_md_body(result: dict, top: int) -> str:
     lines = [
         "### Faithfulness check",
         "",

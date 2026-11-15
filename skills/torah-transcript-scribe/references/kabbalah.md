@@ -1,5 +1,7 @@
 # Kabbalah and Chassidus vocabulary
 
+_Part of Torah Transcript Scribe, a free Claude plugin from [PowerJews.com](https://www.powerjews.com)._
+
 Read when the transcript uses sefirot, worlds, soul levels, partzufim, Zohar Aramaic or Chassidic terms. Standard forms first; Ashkenazi variants after the slash. Capitalize sefirot, partzufim and worlds used as proper nouns ("the sefirah of Chesed", "the world of Atzilut"), lowercase generic uses ("the sefirot", "the worlds"). Italicize Aramaic inline; do not italicize naturalized words (Kabbalah, Zohar, Arizal).
 
 ## The ten sefirot

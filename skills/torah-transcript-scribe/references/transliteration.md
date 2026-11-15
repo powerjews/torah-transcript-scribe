@@ -1,5 +1,7 @@
 # Transliteration: detect, then preserve
 
+_Part of Torah Transcript Scribe, a free Claude plugin from [PowerJews.com](https://www.powerjews.com)._
+
 Hebrew has many valid English spellings. The speaker's pronunciation is part of their voice and often of their community, so the scribe's job is to detect the style and spell every restored word in it, never to impose one.
 
 ## The two families

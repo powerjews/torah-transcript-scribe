@@ -1,5 +1,7 @@
 # Garble patterns: more examples of the eight shapes
 
+_Part of Torah Transcript Scribe, a free Claude plugin from [PowerJews.com](https://www.powerjews.com)._
+
 These are illustrations of mechanisms, gathered from several speakers and engines, not a lookup table. The same word garbles differently in every mouth and every engine, so when a suspect resists, ask which shape it is and re-hear it, rather than searching this file for the exact string.
 
 Format: canonical form ← typical garbles (notes).

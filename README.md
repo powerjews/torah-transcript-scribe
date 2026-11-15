@@ -1,6 +1,8 @@
 # Torah Transcript Scribe
 
-A Claude plugin from [PowerJews.com](https://powerjews.com) that proofreads speech-to-text transcripts of shiurim and Torah classes. YouTube captions, Whisper, Otter and Descript hear Hebrew, Aramaic and Yiddish through an English-only ear and write down the nearest English sounds: "broccoli of Hashem" for *beracha*, "Russia comments" for "Rashi comments", "the Tithariyeza" for the Tzitz Eliezer. The scribe hears what the speaker actually said and writes that down, changing nothing else.
+**Free, from [PowerJews.com](https://www.powerjews.com).** PowerJews is a 501(c)(3) nonprofit that makes Jewish learning practical. This plugin is one of its tools, given away so that recorded Torah classes reach print the way they were said.
+
+A Claude plugin from [PowerJews.com](https://www.powerjews.com) that proofreads speech-to-text transcripts of shiurim and Torah classes. YouTube captions, Whisper, Otter and Descript hear Hebrew, Aramaic and Yiddish through an English-only ear and write down the nearest English sounds: "broccoli of Hashem" for *beracha*, "Russia comments" for "Rashi comments", "the Tithariyeza" for the Tzitz Eliezer. The scribe hears what the speaker actually said and writes that down, changing nothing else.
 
 It works for any speaker, any engine and any genre (halacha, Gemara, Chumash, Kabbalah, mussar, Chassidus, history) because it reasons from sound and context and from Claude's own knowledge of Torah vocabulary, not from a list of known errors. Ashkenazi, Sephardi, Syrian, Israeli and Chabad pronunciations are kept in the speaker's own style.
 
@@ -60,6 +62,16 @@ The skill is tested against ten evaluation transcripts (Sephardi and Ashkenazi s
 
 Built by [PowerJews.com](https://powerjews.com), a nonprofit that makes Jewish learning practical. Citation checks use [Sefaria](https://www.sefaria.org), an independent nonprofit library of Jewish texts. The pronunciation column of `references/spoken-forms.md` is derived from the glossary at [Judaism 101](https://www.jewfaq.org) by Tracey R. Rich, with thanks.
 
+## Trademarks
+
+PowerJews™ and Torah Transcript Scribe™ are trademarks of Power Jews Corporation. The MIT license covers the files in this repository; it grants no right to use these names or the PowerJews logo to name, endorse or promote a derived work. Forks are welcome under their own name and icon, with the copyright line kept as the license requires.
+
 ## Support and license
 
 Questions and bug reports: [GitHub issues](https://github.com/designchai/torah-transcript-scribe/issues). Released under the [MIT License](LICENSE).
+
+If this saved you hours of proofreading, [support PowerJews](https://www.powerjews.com/donate) so the next tool can be free too.
+
+---
+
+Made with care by [PowerJews.com](https://www.powerjews.com).

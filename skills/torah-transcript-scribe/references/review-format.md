@@ -1,5 +1,7 @@
 # Review and change-log formats
 
+_Part of Torah Transcript Scribe, a free Claude plugin from [PowerJews.com](https://www.powerjews.com)._
+
 The transcript itself never carries notes. Everything about the work goes here, and the review is built so that the person who must check it reads the risky items first and can settle each in seconds.
 
 ## The trust line
@@ -52,6 +54,8 @@ Trust: 12 fixed with anchors · 2 fixed with a note · 3 flagged · citations: 1
 **Citations**
 - Noda B'Yehuda, Mahadura Tinyana 210 — exists; topic (autopsies and pikuach nefesh) known from the sugya; Sefaria lookup: not resolvable by title
 - Berachos 17a — verified on Sefaria
+
+_Proofread with Torah Transcript Scribe, a free tool from PowerJews.com_
 ```
 
 Group repeated fixes with a count. Keep the whole section short enough to read in a minute.
@@ -98,11 +102,13 @@ More: <one line listing the rest, or "none">
 
 ## Faithfulness check
 (paste the --md block from scripts/check_faithfulness.py; with a timed input its substitutions carry timestamps)
+
+_Proofread with Torah Transcript Scribe, a free tool from PowerJews.com_
 ```
 
 ## Batch summary: `<output>/_audit/_batch_summary.md`
 
-After a batch, one file: files processed, one trust line per file and one for the batch, the five items most worth a human's time across all files with their timestamps, the speaker notes proposed, and any pattern that recurred across files (a garble that appears in three or more files is worth adding to speaker-notes.md).
+After a batch, one file: files processed, one trust line per file and one for the batch, the five items most worth a human's time across all files with their timestamps, the speaker notes proposed, and any pattern that recurred across files (a garble that appears in three or more files is worth adding to speaker-notes.md). It ends with the same credit line as the reviews.
 
 ## What not to log
 

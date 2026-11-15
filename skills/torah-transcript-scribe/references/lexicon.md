@@ -1,5 +1,7 @@
 # Lexicon: canonical spellings and who says what
 
+_Part of Torah Transcript Scribe, a free Claude plugin from [PowerJews.com](https://www.powerjews.com)._
+
 Checklists of things that exist, so a candidate can be confirmed as a real name or term and spelled consistently. Ashkenazi form first, Sephardi/Israeli form after the slash where they differ. Spell restored words in the speaker's own style (see `transliteration.md`).
 
 ## Tanach
