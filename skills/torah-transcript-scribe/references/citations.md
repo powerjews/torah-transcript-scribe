@@ -76,3 +76,39 @@ When a Sefaria tool is available, every citation and quoted line gets a lookup, 
 4. Do not "verify" by text search alone. A Hebrew search for a sefer's name finds the pasuk or phrase the sefer is named after (searching for the Noda B'Yehuda returns Tehillim 76:2), and a search hit in the wrong work proves nothing about the citation.
 
 Section counts that catch a misheard number (verified on Sefaria's catalogue): Shulchan Aruch Orach Chaim 697 simanim, Yoreh De'ah 403, Even HaEzer 178, Choshen Mishpat 427; Mishnah Berurah follows Orach Chaim; Tehillim 150 perakim; Mishlei 31; Iyov 42; Bereishis 50 perakim, Shemos 40, Vayikra 27, Bamidbar 36, Devarim 34; Avos 6 perakim; Hilchos Teshuvah 10 perakim, Hilchos Shabbos 30, Hilchos Dei'os 7, Hilchos Yesodei HaTorah 10. A number past the end is a misheard number or a misheard work, never a reason to pick a different famous source.
+
+### Sefaria titles
+
+Checked against Sefaria's name API on 2026-11-15. The catalogue answers only to these spellings; a shiur's spelling (Shulchan Aruch, Orach Chaim, Mishna Brura) returns nothing, and an empty answer under the Sefaria title is what "not resolvable" means.
+
+| Spoken in a shiur | Sefaria title (fetch under this) |
+|---|---|
+| Shulchan Aruch, Orach Chaim / Yoreh Deah / Even HaEzer / Choshen Mishpat | Shulchan Arukh, Orach Chayim / Yoreh De'ah / Even HaEzer / Choshen Mishpat (siman:seif) |
+| Shulchan Aruch HaRav | Shulchan Arukh HaRav, Orach Chayim (siman:seif; Second Edition and Last Edition are separate nodes) |
+| Mishnah Berurah, Biur Halacha | Mishnah Berurah; Beur Halakha |
+| Aruch HaShulchan, Kitzur Shulchan Aruch | Arukh HaShulchan; Kitzur Shulchan Arukh |
+| Chayei Adam, Chochmas Adam | Chayei Adam; Chokhmat Adam |
+| Magen Avraham, Taz, Shach, Pischei Teshuva, Pri Megadim, Kaf HaChaim, Sha'arei Teshuvah | Magen Avraham; Turei Zahav on Shulchan Arukh, Yoreh De'ah; Siftei Kohen on Shulchan Arukh, Yoreh De'ah; Pitchei Teshuva on Shulchan Arukh, Yoreh De'ah; Pri Megadim on Yoreh De'ah; Kaf HaChayim on Shulchan Arukh, Orach Chayim; Sha'arei Teshuvah on Shulchan Arukh, Orach Chayim |
+| Beis Yosef, Tur, Darkei Moshe, Drisha, Bach (teshuvos) | Beit Yosef; Tur; Darkhei Moshe; Drisha; Teshuvot Bayit Chadash |
+| Ketzos, Nesivos | Ketzot HaChoshen on Shulchan Arukh, Choshen Mishpat; Netivot HaMishpat, Beurim on Shulchan Arukh, Choshen Mishpat |
+| Rambam, Hilchos Shabbos / Teshuvah / Yesodei HaTorah | Mishneh Torah, Sabbath / Repentance / Foundations of the Torah (English topic names, then perek:halacha) |
+| Noda B'Yehuda | Noda BiYhudah I, Yoreh Deah (volume I = Kamma, II = Tinyana) |
+| Chasam Sofer (teshuvos; on Torah) | Responsa Chatam Sofer, Yoreh De'ah; Chatam Sofer on Torah |
+| Teshuvos HaRashba, Maharil, Terumas HaDeshen, Melamed LeHo'il | Teshuvot haRashba part I; Teshuvot Maharil; Terumat HaDeshen; Melamed Leho'il Part I |
+| Rashi, Tosafos, Ramban, Rashba, Ritva, Meiri, Maharsha on a masechta | Rashi on Bava Metzia; Tosafot on Bava Metzia; Chiddushei Ramban on Bava Metzia; Rashba on Bava Metzia; Ritva on <masechta> (not every masechta); Meiri on Bava Metzia; Chidushei Agadot on Bava Metzia and Chidushei Halachot on Bava Metzia (the Maharsha) |
+| Ran on Nedarim, Mordechai | Ran on Nedarim; Mordechai on Bava Batra (per masechta) |
+| Ohr HaChaim, Kli Yakar, Sforno, Netziv, Malbim on a sefer | Or HaChaim on Genesis; Kli Yakar on Genesis; Sforno on Genesis; Haamek Davar on Genesis; Malbim on Genesis |
+| Minchas Chinuch, Sefer HaChinuch | Minchat Chinukh; Sefer HaChinukh |
+| Mesilas Yesharim, Chovos HaLevavos, Da'as Tevunos, Derech Hashem, Sha'arei Kedusha, Tomer Devorah, Reishis Chochmah, Yesod V'Shoresh HaAvodah, Nefesh HaChaim | Mesilat Yesharim; Chovot HaLevavot; Da'at Tevunot; Derech Hashem; Sha'arei Kedusha; Tomer Devorah; Reshit Chokhmah; Yesod VeShoresh HaAvodah; Nefesh HaChaim |
+| Tanya, Likutei Moharan, Torah Ohr, Kedushas Levi, Noam Elimelech, Me'or Einayim, Sfas Emes, Shem MiShmuel | Tanya; Likutei Moharan; Torah Ohr; Kedushat Levi; Noam Elimelech; Me'or Einayim; Sefat Emet; Shem MiShmuel |
+| Oros, Ein Ayah | Orot; Ein Ayah |
+| Zohar, Tikkunei Zohar, Etz Chaim, Sha'ar HaGilgulim | Zohar; Tikkunei Zohar; Etz Chaim; Sha'ar HaGilgulim |
+| Milchamos Hashem (Ramban) | Milchamot HaShem (its hakdamah is "Introduction") |
+| Pirkei D'Rabbi Eliezer, Tanchuma, Yalkut Shimoni, Mechilta, Sifra, Sifrei, Avos D'Rabbi Nasan, Tanna D'Vei Eliyahu, Seder Olam, Megillas Taanis | Pirkei DeRabbi Eliezer; Midrash Tanchuma; Yalkut Shimoni on Torah; Mekhilta DeRabbi Yishmael; Sifra; Sifrei Bamidbar; Avot DeRabbi Natan; Tanna DeBei Eliyahu Rabbah / Zuta; Seder Olam Rabbah; Megillat Ta'anit |
+| Sefer Chasidim, Ohr Zarua, Smag, Smak, Kol Bo, Abudarham | Sefer Chasidim; Ohr Zarua; Sefer Mitzvot Gadol; Sefer Mitzvot Katan; Kol Bo; Abudarham |
+| the siddur, the machzor, the Haggadah | Siddur Ashkenaz / Siddur Sefard / Siddur Edot HaMizrach; Machzor Rosh Hashanah Ashkenaz; Pesach Haggadah |
+| Peninei Halacha | Peninei Halakhah, <volume> |
+
+Also resolved on 2026-11-15: Ba'er Hetev on Shulchan Arukh, Orach Chayim; Chidushei Halachot on Bava Metzia; Likkutei Torah; Beit HaLevi on Torah; Noda BiYhudah I; Responsa Chatam Sofer; Chiddushei Ramban on Bava Metzia; Tanna DeBei Eliyahu Rabbah; Mishneh Torah, Prayer and the Priestly Blessing; Mishneh Torah, Reading the Shema; Mishneh Torah, Scroll of Esther and Hanukkah; Peninei Halakhah, Shabbat; Teshuvot haRambam.
+
+**In print but not on Sefaria by title (2026-11-15):** Igrot Moshe; Teshuvot VeHanhagot; Tzitz Eliezer; Yabia Omer; Yechaveh Daat; Yalkut Yosef; Or LeTzion; Shevet HaLevi; Minchat Yitzchak; Har Tzvi; Achiezer; Seridei Esh; Binyan Tzion; Divrei Chaim; Avnei Nezer; Maharam Schick; Chazon Ish; Chashukei Chemed; Pnei Yehoshua; Michtav MeEliyahu; Sichot Mussar; Pachad Yitzchak; Mishnat Rabbi Aharon; Shemirat Shabbat KeHilkhatah; Ben Ish Chai; Hagahot Maimoniyot; Sefer HaManhig; Orchot Chaim; Rokeach; Ritva on Bava Metzia; also tried and absent: Sha'ar HaTziyun on Mishnah Berurah; Ben Ish Chai, Halachot; Pnei Yehoshua on Berakhot; Ritva on Bava Batra; Yabia Omer, Orach Chayim; Igrot Moshe, Even HaEzer. Write these as heard with the outcome **not resolvable**. Not resolvable never means wrong; it means the check could not be made.

@@ -10,11 +10,11 @@ Every review and every chat-mode Changes section opens with one line of counts, 
 Trust: 41 fixed with anchors · 6 fixed with a note · 3 flagged · citations: 4 verified on Sefaria, 1 exists (topic unverified), 2 as heard
 ```
 
-The counts are provenance classes, not a feeling. A reader who sees "0 flagged, 0 as heard" knows every change is anchored; a reader who sees "7 as heard" knows where the risk sits. Count honestly: a word whose form only the audio can settle (bas kol or bat kol, amas or amat) is a note, not an anchored fix, however sure the meaning is.
+The counts are provenance classes, not a feeling. A reader who sees "0 flagged, 0 as heard" knows every change is anchored; a reader who sees "7 as heard" knows where the risk sits. Count honestly: a word whose form only the audio can settle (bas kol or bat kol, amas or amat) is a note, not an anchored fix, however sure the meaning is. Where the script ran, the counts come from its lists (fixes from the substitution events, insertions from the Inserted list), and an item that was not changed is never listed under Fixed or Fixed with a note: a citation written as heard is a Citations row and nothing more. A change in word count is explained only from the script's substitution list; a guessed explanation is a false statement in a document whose one job is to be believed.
 
 ## Needs a human: ranked, capped, settled in seconds
 
-List at most five items above the fold, ranked by consequence: attributions and citations first, then names (people, places, seforim), then vocabulary. Each line gives the item, its timestamp when the input had timing (else the sentence it sits in, quoted), and what would settle it. Further items go under a "More" line below. The transcript is the deliverable; the review exists so the risky changes can be checked quickly, and padding it hides the ones that matter.
+List at most five items above the fold, ranked by consequence: attributions and citations first, then names (people, places, seforim), then vocabulary. Each line gives the item, its timestamp when the input had timing (else the sentence it sits in, quoted), and what would settle it. For a YouTube source the timestamp on every row is a full link with its seconds filled in, never a template. Further items go under a "More" line below. The transcript is the deliverable; the review exists so the risky changes can be checked quickly, and padding it hides the ones that matter.
 
 ## Chat mode: the Changes section
 
@@ -106,4 +106,4 @@ After a batch, one file: files processed, one trust line per file and one for th
 
 ## What not to log
 
-Do not log every punctuation decision, every "the the" removed, or confirmations of fixes that need no review. Do not list a citation twice because it recurs; give it once with its outcome and count.
+Do not log every punctuation decision, every "the the" removed, or confirmations of fixes that need no review. Do not list a citation twice because it recurs; give it once with its outcome and count. Do not write "matches from memory", "checked from memory" or any other verification you did not perform: a quote or citation you did not look up is as heard, and the review says so.

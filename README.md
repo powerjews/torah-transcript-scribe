@@ -54,7 +54,7 @@ claude plugin install torah-transcript-scribe@powerjews
 
 ## How it was tested
 
-The skill ships with ten evaluation transcripts (Sephardi and Ashkenazi speakers, YouTube captions and Whisper, halacha, Gemara, Kabbalah and a clean control) graded by one hundred written checks. The version in this repository passed 98 of 100 against 90 for the version before the trust rules; every miss of the earlier version was a source or name written with more confidence than the transcript allowed. The evaluation set is kept out of the public repository because its fixtures are transcripts of real classes.
+The skill is tested against ten evaluation transcripts (Sephardi and Ashkenazi speakers, YouTube captions and Whisper, halacha, Gemara, Kabbalah and a clean control) graded by 108 written checks. On the hundred checks that existed at the time, the version with the trust rules passed 98 against 90 for the version before them; every miss of the earlier version was a source or name written with more confidence than the transcript allowed. A second pass on Claude Sonnet, the model most people will run it on, passed 30 of 33 checks on the four cases it had never seen; its three misses were in the review's wording, not in the transcript, and each became a rule in this version. The evaluation set is kept out of the public repository because its fixtures are transcripts of real classes.
 
 ## Credits
 
