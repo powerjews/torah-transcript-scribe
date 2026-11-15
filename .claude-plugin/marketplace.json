@@ -1,0 +1,7 @@
+{
+  "name": "powerjews",
+  "owner": { "name": "PowerJews", "url": "https://powerjews.com" },
+  "plugins": [
+    { "name": "torah-transcript-scribe", "source": "./" }
+  ]
+}

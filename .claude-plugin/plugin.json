@@ -1,0 +1,30 @@
+{
+  "name": "torah-transcript-scribe",
+  "displayName": "Torah Transcript Scribe",
+  "version": "1.0.0",
+  "description": "Proofreads AI and YouTube transcripts of shiurim and Torah classes: restores misheard Hebrew, Aramaic and Yiddish words, names and citations from context, checks citations on Sefaria, and tells you which fixes were anchored, which are guesses, and which were left as heard.",
+  "author": {
+    "name": "PowerJews",
+    "url": "https://powerjews.com"
+  },
+  "homepage": "https://github.com/designchai/torah-transcript-scribe#readme",
+  "repository": "https://github.com/designchai/torah-transcript-scribe",
+  "license": "MIT",
+  "keywords": [
+    "torah",
+    "shiur",
+    "transcript",
+    "proofreading",
+    "hebrew",
+    "aramaic",
+    "yiddish",
+    "sefaria",
+    "captions",
+    "whisper",
+    "youtube"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/designchai/torah-transcript-scribe#readme",
+  "supportUrl": "https://github.com/designchai/torah-transcript-scribe/issues",
+  "privacyPolicyUrl": "https://github.com/designchai/torah-transcript-scribe/blob/main/PRIVACY.md"
+}

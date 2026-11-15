@@ -1,0 +1,7 @@
+# evals hold real shiur transcripts used only for local testing; they are not part of the published plugin
+skills/torah-transcript-scribe/evals/
+__pycache__/
+*.pyc
+desktop.ini
+Thumbs.db
+.DS_Store
