@@ -48,7 +48,7 @@ Everything the plugin does is in this repository, in plain text.
 - From this repository in Claude Code:
 
 ```
-claude plugin marketplace add designchai/torah-transcript-scribe
+claude plugin marketplace add powerjews/torah-transcript-scribe
 claude plugin install torah-transcript-scribe@powerjews
 ```
 
@@ -68,7 +68,7 @@ PowerJews™ and Torah Transcript Scribe™ are trademarks of Power Jews Corpora
 
 ## Support and license
 
-Questions and bug reports: [GitHub issues](https://github.com/designchai/torah-transcript-scribe/issues). Released under the [MIT License](LICENSE).
+Questions and bug reports: [GitHub issues](https://github.com/powerjews/torah-transcript-scribe/issues). Released under the [MIT License](LICENSE).
 
 If this saved you hours of proofreading, [support PowerJews](https://www.powerjews.com/donate) so the next tool can be free too.
 

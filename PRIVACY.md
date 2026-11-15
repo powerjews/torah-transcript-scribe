@@ -21,4 +21,4 @@ The plugin is a text proofreading tool for general audiences. It is not directed
 
 ## Changes and contact
 
-Changes to this policy are published in this repository with a new effective date. Questions go to the issue tracker at https://github.com/designchai/torah-transcript-scribe/issues or through the contact form at https://powerjews.com.
+Changes to this policy are published in this repository with a new effective date. Questions go to the issue tracker at https://github.com/powerjews/torah-transcript-scribe/issues or through the contact form at https://powerjews.com.
