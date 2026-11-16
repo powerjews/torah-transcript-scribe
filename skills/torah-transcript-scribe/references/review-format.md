@@ -12,7 +12,7 @@ Every review and every chat-mode Changes section opens with one line of counts, 
 Trust: 41 fixed with anchors · 6 fixed with a note · 3 flagged · citations: 4 verified on Sefaria, 1 exists (topic unverified), 2 as heard
 ```
 
-The counts are provenance classes, not a feeling. A reader who sees "0 flagged, 0 as heard" knows every change is anchored; a reader who sees "7 as heard" knows where the risk sits. Count honestly: a word whose form only the audio can settle (bas kol or bat kol, amas or amat) is a note, not an anchored fix, however sure the meaning is. Where the script ran, the counts come from its lists (fixes from the substitution events, insertions from the Inserted list), and an item that was not changed is never listed under Fixed or Fixed with a note: a citation written as heard is a Citations row and nothing more. A change in word count is explained only from the script's substitution list; a guessed explanation is a false statement in a document whose one job is to be believed.
+The counts are provenance classes, not a feeling. A reader who sees "0 flagged, 0 as heard" knows every change is anchored; a reader who sees "7 as heard" knows where the risk sits. Count honestly: a word whose form only the audio can settle (bas kol or bat kol, amas or amat) is a note, not an anchored fix, however sure the meaning is. The counts come from the word-by-word comparison (fixes from its replaced runs, insertions from its added runs), and an item that was not changed is never listed under Fixed or Fixed with a note: a citation written as heard is a Citations row and nothing more. A change in word count is explained only from the comparison's list; a guessed explanation is a false statement in a document whose one job is to be believed.
 
 ## Needs a human: ranked, capped, settled in seconds
 
@@ -92,7 +92,7 @@ More: <one line listing the rest, or "none">
 
 ## Inserted
 - timestamp word, in "the sentence with ___" — the verse or the speaker's phrase that pins it
-(every word that was not in the source; the script's Inserted list must match this one)
+(every word that was not in the source; the comparison's added runs must match this list)
 
 ## Flagged (left as heard)
 - timestamp "garble" — candidates, and what would settle it
@@ -101,7 +101,7 @@ More: <one line listing the rest, or "none">
 - Recurring terms and their spellings, resolved names, recurring garbles for this speaker (propose; the user merges into speaker-notes.md)
 
 ## Faithfulness check
-(paste the --md block from scripts/check_faithfulness.py; with a timed input its substitutions carry timestamps)
+(words in and out, then every replaced, dropped and added run from the word-by-word comparison, each with its cue time when the input was timed; or "compared by hand" and what was checked)
 
 _Proofread with Torah Transcript Scribe, a free tool from PowerJews.com_
 ```

@@ -32,14 +32,13 @@ Point Claude at a file or paste the text. The corrected transcript comes back wi
 
 ## Where it runs
 
-The skill loads in Claude chat, Cowork and Claude Code. The Sefaria connector appears on the plugin's Connectors tab in claude.ai and loads directly in Claude Code. The faithfulness script runs where Claude has a shell (Claude Code, Cowork on your computer); elsewhere Claude does the comparison by hand and says so in the review.
+The skill loads in Claude chat, Cowork and Claude Code. The Sefaria connector appears on the plugin's Connectors tab in claude.ai and loads directly in Claude Code. Where Claude can run code, it checks faithfulness with a word-by-word comparison it writes in your session; elsewhere it compares by hand and says so in the review.
 
 ## What the plugin runs, sends and fetches
 
 Everything the plugin does is in this repository, in plain text.
 
-- `skills/torah-transcript-scribe/SKILL.md` and `references/`: instructions and reference lists Claude reads. No code.
-- `skills/torah-transcript-scribe/scripts/check_faithfulness.py`: a Python standard-library script that aligns the original and corrected transcript word by word and reports dropped, added, rewritten and inserted words. It reads the two files named on its command line and writes nothing else.
+- `skills/torah-transcript-scribe/SKILL.md` and `references/`: instructions and reference lists Claude reads. No code ships with the plugin. Where Claude can run code, the skill has it write a short word-by-word comparison of the original and corrected transcript in your session; that comparison reads only the two texts and sends nothing anywhere.
 - `.mcp.json`: declares Sefaria's public text server at `https://mcp.sefaria.org/mcp` as a remote connector so Claude can look up citations. The only data sent is the reference being checked (a book name, a section, a short quoted phrase). No other network access, no analytics, no credentials. See [PRIVACY.md](PRIVACY.md).
 
 ## Install

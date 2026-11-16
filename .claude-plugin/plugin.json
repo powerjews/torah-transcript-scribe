@@ -1,7 +1,7 @@
 {
   "name": "torah-transcript-scribe",
   "displayName": "Torah Transcript Scribe by PowerJews",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Proofreads AI and YouTube transcripts of shiurim and Torah classes: restores misheard Hebrew, Aramaic and Yiddish words, names and citations from context, checks citations on Sefaria, and tells you which fixes were anchored, which are guesses, and which were left as heard.",
   "author": {
     "name": "PowerJews",
