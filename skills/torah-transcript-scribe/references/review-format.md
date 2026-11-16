@@ -16,7 +16,7 @@ The counts are provenance classes, not a feeling. A reader who sees "0 flagged, 
 
 ## Needs a human: ranked, capped, settled in seconds
 
-List at most five items above the fold, ranked by consequence: attributions and citations first, then names (people, places, seforim), then vocabulary. Each line gives the item, its timestamp when the input had timing (else the sentence it sits in, quoted), and what would settle it. For a YouTube source the timestamp on every row is a full link with its seconds filled in, never a template. Further items go under a "More" line below. The transcript is the deliverable; the review exists so the risky changes can be checked quickly, and padding it hides the ones that matter.
+List at most five items above the fold, ranked by consequence: attributions and citations first, then names (people, places, seforim), then vocabulary. Each line gives the item, its timestamp when the input had timing (else the sentence it sits in, quoted), and what would settle it. For a YouTube source every timestamp in every section (Needs a human, Fixed with a note, Inserted, Flagged) is written as a link, `[02:31](https://www.youtube.com/watch?v=ID&t=151s)`, with the real id and seconds, never a template. Further items go under a "More" line below. The transcript is the deliverable; the review exists so the risky changes can be checked quickly, and padding it hides the ones that matter.
 
 ## Chat mode: the Changes section
 
@@ -112,4 +112,4 @@ After a batch, one file: files processed, one trust line per file and one for th
 
 ## What not to log
 
-Do not log every punctuation decision, every "the the" removed, or confirmations of fixes that need no review. Do not list a citation twice because it recurs; give it once with its outcome and count. Do not write "matches from memory", "checked from memory" or any other verification you did not perform: a quote or citation you did not look up is as heard, and the review says so.
+Do not log every punctuation decision, every "the the" removed, or confirmations of fixes that need no review. Do not list a citation twice because it recurs; give it once with its outcome and count. Do not write "matches from memory", "checked from memory", "already correct", "matches the story in", "confirmed" or any other verification you did not perform: a quote or citation you did not look up is as heard, and the review says so.

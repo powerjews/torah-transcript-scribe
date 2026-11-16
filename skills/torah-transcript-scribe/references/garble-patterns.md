@@ -61,8 +61,8 @@ The engine prefers a real English word. The more specific and out-of-place the E
 A quoted line comes out as pseudo-words. The speaker's translation, usually in the next clause, is the key. Reconstruct the real line, then check it against the source when you can.
 
 - keivan she'adayin lo hinetz hachamah ← Kevan shaidayin loin nitsa hamaa ("since the sun has not yet risen")
-- v'yotzei yedei chovat Keriat Shema shel arbit ← the yotsak sat yidehobad kiryat shema the arbit (a Syrian speaker's arbit stays arbit; an Israeli's would be arvit)
-- b'teivat echad yechaven b'shiluv Havayah Adnut ← B'tevat אחד yichaben besiluv havaya adhanut (Sephardi Kabbalistic kavanah on "echad")
+- v'yotzei yedei chobat Keriat Shema shel arbit ← the yotsak sat yidehobad kiryat shema the arbit (a Syrian speaker's b stays b: chobat, arbit; an Israeli's would be chovat, arvit)
+- b'tebat echad yechaben b'shiluv Havayah Adnut ← B'tevat אחד yichaben besiluv havaya adhanut (Sephardi Kabbalistic kavanah on "echad"; the Syrian b stays: tebat, yechaben, not teivat, yechaven)
 - ein chalom belo devarim beteilim ← no dream without a thing battle (Berachos 55a)
 - kol kevudah bat melech penimah ← Kolkibu Dabbat Melech Penima (Tehillim 45:14)
 - eishet chayil ← Ishit Ha'il, a sheet high
